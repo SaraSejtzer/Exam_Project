@@ -9,7 +9,7 @@ body {
 }
 
 .logo {
-	width: 100%;
+	width: 90%;
 }
 
 .navbar-brand {
@@ -17,15 +17,19 @@ body {
 	width: 30%;
 }
 .navcss{
-	z-index: 99;
-	position:relative;
+	/*z-index: 99;
+	position:relative;*/
 	background-color: rgba(241,241,241,0.50)
 }
 
 .video{
-	z-index: -1;
+	/*z-index: -1;*/
 	width: 100%;
-	position: fixed;
-	top:0;
+	/*position: fixed;
+	top:0;*/
 	
+}
+
+.imgcss{
+	width: 40%;
 }

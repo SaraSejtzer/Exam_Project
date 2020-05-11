@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link  rel ="stylesheet" href="stylesheet.css">
     <title>DigiARTal</title>
+	<script src = "script.js"></script>
   </head>
 	
   <body>
 	<!--Nav bar-->
-    <nav class="navbar navbar-expand-md navbar-light navcss">
+    <nav class="navbar navbar-expand-md navbar-light navcss fixed-top scrolling-navbar">
 	  <a class="navbar-brand" href="#">
 		<img class="logo" src="img/testlogo.png" alt="logo">
 	  </a>
@@ -42,12 +43,70 @@
 		  
 		</ul>
 	  </div>
-	</nav> <!--Nav bar slut-->
+	</nav> <!--Nav bar end-->
 	  
-	<div>
+	<!--Vidoe banner-->  
+	<div class="d-block d-sm-none">
 	  <video class="video" src="video/testvideo.mp4" autoplay muted loop></video>
+	  </div> 
+	  
+	<div class="d-none d-sm-block">
+	  <video class="video" src="video/testvideo1.mp4" autoplay muted loop></video>
+	</div><!--Video banner end-->
+	  
+	 
+	<!--Typing string--!>  
+	<div class="type-wrap">
+   		 <span id="typing" style="white-space:pre;"></span>
+  	</div>
+    <button class="loop2">Toggle Loop</button> <!--Typing string end-->
+	 
+	<!--Levels-->
+	  <button onclick="typeWriter()">Click me</button>
+	 <p id="demo"></p>
+	  
+	 <div class="container">
+		 <div class="row">
+			 <div class="col-sm-6 col-md-4">
+				 <a>
+					<h4>Never tried</h4>
+				 	<img class="imgcss" src="img/level_one_sidewayes.png" alt="Never tried">
+				 </a>
+			 </div>
+			 
+			 <div class="col-sm-6 col-md-4">
+				 <a>
+					<h4>Beginner</h4>
+				 	<img class="imgcss" src="img/level_two_sideways.png" alt="Beginner">
+				 </a>
+			 </div>
+			 
+			 <div class="col-sm-6 col-md-4">
+				 <a>
+					<h4>Experienced</h4>
+				 	<img class="imgcss" src="img/level_three_sidewayes.png" alt="Experienced">
+				 </a>
+			 </div>
+		 </div>
 	  </div>
+	  
+	<!--Levels end-->
+	 <div class="container">
+	
+			<div class="row my-4">
 
+				<section class="col-sm-12 col-lg-6">
+					<p class="text"> Hver måned modtager tusindvis af danskere en PawBox til enten deres kat eller hund. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quisquam quos aspernatur consequuntur sapiente eius adipisci quam similique animi reiciendis perspiciatis amet hic, laborum maxime iure est ex pariatur perferendis mollitia nemo explicabo cupiditate unde doloremque amet hic, laborum maxime iure est ex pariatur perferendis mollitia nemo explicabo cupiditate unde doloremque</p>
+				</section>
+
+				<section class="col-sm-12 col-lg-6">
+					<p class="text">Dolor sit amet, consectetur adipisicing elit. Voluptatem voluptates eius, vero earum ea, maxime porro beatae laborum nisi asperiores magnam neque voluptas. Odit placeat totam minus dolorum distinctio explicabo iure architecto nemo at sed pariatur doloremque, provident maxime nisi quidem facilis, illo eius, adipisci veritatis reiciendis. Amet hic, laborum maxime iure est ex pariatur perferendis mollitia nemo explicabo cupiditate unde doloremque</p>
+				</section>
+
+			</div> 
+		</div><!--Tekst slut-->
+	  
+  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
