@@ -12,7 +12,7 @@
 	<script src = "script.js"></script>
   </head>
 	
-  <body>
+  <body onload="typeWriter();">
 	<!--Nav bar-->
     <nav class="navbar navbar-expand-md navbar-light navcss fixed-top scrolling-navbar">
 	  <a class="navbar-brand" href="#">
@@ -55,15 +55,11 @@
 	</div><!--Video banner end-->
 	  
 	 
-	<!--Typing string--!>  
-	<div class="type-wrap">
-   		 <span id="typing" style="white-space:pre;"></span>
-  	</div>
-    <button class="loop2">Toggle Loop</button> <!--Typing string end-->
+	<!--Typing string-->  
+	 <p id="demo"></p>
 	 
 	<!--Levels-->
-	  <button onclick="typeWriter()">Click me</button>
-	 <p id="demo"></p>
+	
 	  
 	 <div class="container">
 		 <div class="row">

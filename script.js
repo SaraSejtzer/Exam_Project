@@ -9,8 +9,9 @@
     loop: true
   }); */
 
+ 
 var i = 0;
-var txt = 'Lorem ipsum typing effect!'; /* The text */
+var txt = 'For artists by artists'; /* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */ 
 
 function typeWriter() {
@@ -19,4 +20,16 @@ function typeWriter() {
     i++;
     setTimeout(typeWriter, speed);
   }
+}
+	
+function typeDelete() {
+	i=0;
+  if (i < document.getElementById("demo").innerHTML.length) {
+    document.getElementById("demo").innerHTML = "";
+  }
+	
+
+
+	
+	
 }
