@@ -1,23 +1,21 @@
 // JavaScript Document
-var i = 0;
+var i = 0; //i is the position of the letters, specialcharacters and spaces in this case, and starts at index 0. 
 var txt = 'For artists by artists'; /* The text */
 var txt1 = 'Get started!';
-var speed = 50; /* The speed/duration of the effect in milliseconds */ 
-var switching = 0;
+var speed = 40; /* The speed/duration of the effect in milliseconds */ 
 
 function loopingText(){
-		//typeWriter();
-		setTimeout(typeWriter, 0);
-		setTimeout(typeDelete, 2000);
-		setTimeout(typeWriter1, 2000);
-		setTimeout(loopingIt, 5000);
+		setTimeout(typeWriter, 0); //calls typeWriter function with 0 millisecond delay. 
+		setTimeout(typeDelete, 2000); //calls typeDelete function with 2 seconds delay. 
+		setTimeout(typeWriter1, 2000);//calls typeWriter1 function with 2 seconds delay.
+		setTimeout(loopingIt, 5000); //calls loopingIt function with 5 seconds delay, creating a loop.
 	} 
 
 function typeWriter() {
   if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
+    document.getElementById("demo").innerHTML += txt.charAt(i); //inserts the character at i'th position. 
+    i++; //increments i. 
+    setTimeout(typeWriter, speed); //calls typeWriter function with the given speed 40. 
   } 
 }
 
@@ -29,15 +27,15 @@ function typeWriter1() {
   } 
 }
 
-function typeDelete() {
-document.getElementById("demo").innerHTML = "";
-	i=0;
+function typeDelete() { //"sletter" teksten igen
+document.getElementById("demo").innerHTML = ""; //Sets the h1 header with the id demo to an empty string. 
+	i=0; // sets i to 0. 
   }
 	
 function loopingIt(){
 	document.getElementById("demo").innerHTML = "";
 	i=0;
-	loopingText();
+	loopingText(); //Calls the function loopingText which creates the loop. 
 }
 
 	
