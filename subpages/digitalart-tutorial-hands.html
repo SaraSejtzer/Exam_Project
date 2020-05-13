@@ -1,10 +1,167 @@
 <!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<body>
-</body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link  rel ="stylesheet" href="../stylesheet.css">
+    <title>DigiARTal</title>
+	<script src = "script.js"></script>
+  </head>
+	
+  <body onload="loopingText();">
+	<!--Nav bar-->
+    <nav class="navbar navbar-expand-md navbar-light navcss fixed-top scrolling-navbar">
+	  <a class="navbar-brand" href="#">
+		<img class="logo" src="../img/testlogo.png" alt="logo">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+		<ul class="navbar-nav ml-auto">
+			
+		  <li class="nav-item dropdown ml-auto">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Dropdown link
+			</a>
+			<div class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
+			  <a class="dropdown-item" href="#">Tutorials</a>
+			  <a class="dropdown-item" href="#">Gallery</a>
+			  <a class="dropdown-item" href="#">References</a>
+			</div>
+		  </li>
+		  <li class="nav-item ml-auto">
+			<a class="nav-link" href="#">Request <span class="sr-only">(current)</span></a>
+		  </li>
+		  <li class="nav-item ml-auto">
+			<a class="nav-link" href="#">Merchindice</a>
+		  </li>
+		  
+		</ul>
+	  </div>
+	</nav> <!--Nav bar end-->
+	  
+	<!--Video banner-->  
+	<div class="d-block d-sm-none">
+	  <img class="tutorials-header" src="../img/tutorials-img/digitalart-tutorials-hands-mobile.png" alt="digitally drawn hands">
+	  </div> 
+	  
+	<div class="d-none d-sm-block">
+	 <img class="tutorials-header" src="../img/tutorials-img/digitalart-tutorials-hands-desktop.png" alt="digitally drawn hands">
+	</div><!--Video banner end-->
+	  
+	 
+	<!--Typing string-->  
+	  <div class="container-fluid">
+	 <h1 class="d-flex justify-content-center my-5" id="demo"></h1>
+	 </div>
+	<!--Levels-->
+	
+	  
+	 <div class="container">
+		 <div class="row ">
+			 <div class="col-sm-6 col-md-4 my-4 text-center">
+				 <a type="button" href="#">
+					<div class="border bg-css d-inline-block mx-5 py-3">
+						<h4 class="text-dark">Never tried</h4>
+						<img class="imgcss" src="img/level_one_sidewayes.png" alt="Never tried">
+					</div>
+				 </a>
+			 </div>
+			 
+			 <div class="col-sm-6 col-md-4 my-4 text-center">
+				 <a type="button" href="#">
+					<div class="border bg-css d-inline-block mx-5 py-3">
+						<h4 class="text-dark">Beginner</h4>
+						<img class="imgcss" src="img/level_two_sideways.png" alt="Beginner">
+					</div>
+				 </a>
+			 </div>
+			 
+			 <div class="col-sm-6 col-md-4 my-4 text-center ">
+				 <a type="button" href="#">
+					<div class="border bg-css d-inline-block mx-5 py-3">
+						<h4 class="text-dark">Experienced</h4>
+						<img class="imgcss" src="img/level_three_sidewayes.png" alt="Experienced">
+					</div>
+				 </a>
+			 </div>
+		 </div>
+	  </div>
+	  
+	<!--Levels end-->
+	 <div class="container">
+	
+			<div class="row my-4">
+
+				<section class="col-sm-12 col-lg-6">
+					<p class="text"> DigiARTal is an online platform made by artists for artists, here you will have a chance to learn how to draw or improve your skills. DigiARTal is a free to use site where we focus to teach digital art to those who are interested in learning. In a world that is in content change especially in the digital world we feel that it is important to have a place where we all can meet and learn together therefore we have created a platform where all your drawing needs is gathered in one place so you don't have to look hard to find it and you don't need to go broke to learn and grow.</p>
+				</section>
+
+				<section class="col-sm-12 col-lg-6">
+					<p class="text">If you draw from one of our many tutorials feel free to post the final result to instagram and tag us or use the hashtag <b>#DigiARTal</b> so we can see it.<br><br>If you feel your drawing skills is something you want to share you can <b>apply</b> to become a part of the team of pasonatinet artist whose goal is to teach the next generation of artists. At DigiARTal we all work for free because art is a passion for us not just a job, but if you want to support us and the maintenance of the site please check out our <b>merchandise.</b>  </p>
+				</section>
+
+			</div> 
+		</div><!--Tekst slut-->
+	<!-- Footer -->
+	<footer class="page-footer font-small mdb-color lighten-3 pt-4 bg-dark">
+
+	  <!-- Footer Links -->
+	  <div class="container text-center text-md-left">
+
+		<!-- Grid row -->
+		<div class="row">
+
+		  
+		  <!-- Grid column -->
+		  <div class="col-md-4 col-lg-4 mt-md-1">
+
+			<!-- Contact details -->
+			<div>
+			<h5 class="font-weight-bold text-uppercase text-light">Contact</h5>
+
+			<ul class="list-unstyled">
+			  <li>
+				<p class="text-light">
+				  <i class="fas fa-envelope"></i> DigiARTal@outlook.com</p>
+			  </li>
+			</ul>
+
+		  </div>
+		  </div>
+
+		  <!-- Grid column -->
+		  <div class="col-md-4 col-lg-4 text-center mx-auto">
+
+			<!-- Social buttons -->
+			<h5 class="font-weight-bold text-uppercase text-light mt-3 mt-md-1">Follow Us</h5>
+
+			<!-- Instagram -->
+			<a href="https://www.instagram.com/_digiartal_/" target="_blank" type="button" class="btn-floating btn-fb">
+			  <img class="img-thumbnail border-0 " src="../img/instagram-logo.png" alt="instagram logo">
+			</a>
+		
+		  </div>
+			
+		 <div class="col-md-4 col-lg-4 text-sm-center text-md-right mt-3 mt-md-1"> 
+		<img class="img-footer border-0 " src="../img/footer_img.png" alt="footer image">
+		<div/>
+		</div>
+		<!-- Grid row -->
+		</div>
+		</div>
+	</footer>
+	<!-- Footer -->
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
