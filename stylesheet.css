@@ -6,6 +6,7 @@
 }
 body {
     font-family: helvetica, arial, sans-serif;
+	background-color: whitesmoke;
 }
 
 .logo {
@@ -17,23 +18,26 @@ body {
 	width: 30%;
 }
 .navcss{
-	/*z-index: 99;
-	position:relative;*/
 	background-color: rgba(241,241,241,0.50)
 }
 
 .video{
-	/*z-index: -1;*/
 	width: 100%;
-	/*position: fixed;
-	top:0;*/
-	
 }
 
 .imgcss{
-	width: 40%;
+	width: 50%;
+}
+.bg-css{
+	border-color: #D8D8D8;
+	background-color: #D8D8D8;
+	border-radius: 7%;
 }
 
+.hovercss :hover {
+	box-shadow: 2px 2px 5px black;
+	
+}
 /*     Footer    */
 .img-thumbnail {
 	width: 20%;
