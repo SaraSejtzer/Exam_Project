@@ -33,3 +33,12 @@ body {
 .imgcss{
 	width: 40%;
 }
+
+/*     Footer    */
+.img-thumbnail {
+	width: 20%;
+	
+}
+.img-footer {
+	width: 50%;
+}
