@@ -1,28 +1,32 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+    <!-- Meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="keywords" content="HTML, CSS, JavaScript">
-	<meta name="description" content="Free Web tutorials for HTML and CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- For mobile -->
+	<meta name="keywords" content="Digital, art, tutorials"> <!-- Keywords for SEO -->
+	<meta name="description" content="Free digital art tutorials, made by artist for artist this is the platform for people that wants to learn or improve their skills. #DigiARTal"> <!-- Description for SEO-->
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- Own CSS -->
 	<link  rel ="stylesheet" href="stylesheet.css">
-    <title>Free digital art tutorials</title>
+	<!-- JavaScript-->
 	<script src = "script.js"></script>
+	<title>Free digital art tutorials</title>
   </head>
 	
   <body onload="loopingText();">
 	<!--Nav bar-->
     <nav class="navbar navbar-expand-md navbar-light navcss fixed-top scrolling-navbar">
-	  <a class="navbar-brand" href="#">
+		
+	  <a class="navbar-brand" href="index.html">
 		<img class="logo" src="img/testlogo.png" alt="logo">
 	  </a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	  </button>
+		
 	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
 		<ul class="navbar-nav ml-auto">
 			
@@ -31,16 +35,16 @@
 			  Dropdown link
 			</a>
 			<div class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
-			  <a class="dropdown-item" href="#">Tutorials</a>
-			  <a class="dropdown-item" href="#">Gallery</a>
-			  <a class="dropdown-item" href="#">References</a>
+			  <a class="dropdown-item" href="subpages/digitalart-tutorials.html">Tutorials</a>
+			  <a class="dropdown-item" href="subpages/digitalart-gallery.html">Gallery</a>
+			  <a class="dropdown-item" href="subpages/digitalart-reference.html">References</a>
 			</div>
 		  </li>
 		  <li class="nav-item ml-auto">
-			<a class="nav-link" href="#">Request <span class="sr-only">(current)</span></a>
+			<a class="nav-link" href="subpages/digitalart-requests.html">Request</a>
 		  </li>
 		  <li class="nav-item ml-auto">
-			<a class="nav-link" href="#">Merchandise</a>
+			<a class="nav-link" href="subpages/digitalart-merchandise.html">Merchandise</a>
 		  </li>
 		  
 		</ul>
@@ -49,7 +53,7 @@
 	  
 	<!--Vidoe banner-->  
 	<div class="d-block d-sm-none">
-	  <video class="video" src="video/banner_mobile.mp4" autoplay muted loop></video>
+	  <video class="video" src="video/banner_video_mobile.mp4" autoplay muted loop></video>
 	  </div> 
 	  
 	<div class="d-none d-sm-block">
@@ -59,7 +63,7 @@
 	 
 	<!--Typing string-->  
 	  <div class="container-fluid">
-	 <h1 class="d-flex justify-content-center my-5" id="demo"></h1>
+	 <h1 class="d-flex justify-content-center my-5 typeing-css" id="demo"></h1>
 	 </div>
 	<!--Levels-->
 	
