@@ -8,7 +8,7 @@ body {
     font-family: helvetica, arial, sans-serif;
 	background-color: whitesmoke;
 }
-
+/*     Nav    */
 .logo {
 	width: 90%;
 }
@@ -28,25 +28,27 @@ body {
 .imgcss{
 	width: 50%;
 }
-.tutorials-header{
-	width: 100%;
-	
-}
+
+/*     Index    */
 .bg-css{
-	border-color: #D8D8D8;
-	background-color: #D8D8D8;
-	border-radius: 7%;
+	border-color: #EBECEF;
+	background-color: #EBECEF;
+	border-radius: 5%;
 }
 
-.bg-css :hover {
-	box-shadow: 2px 2px 5px black;
-	
+/*     Tutorials   */
+.tutorials-header{
+	width: 100%;
 }
 /*     Footer    */
-.img-thumbnail {
-	width: 20%;
-	
+.icon-css {
+	width: 15%;
+}
+
+.mail-css {
+	width: 10%;
 }
 .img-footer {
 	width: 50%;
+	
 }
