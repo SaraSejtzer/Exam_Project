@@ -34,7 +34,7 @@ body {
 	border-radius: 7%;
 }
 
-.hovercss :hover {
+.bg-css :hover {
 	box-shadow: 2px 2px 5px black;
 	
 }
