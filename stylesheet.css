@@ -5,7 +5,7 @@
     padding: 0;
 }
 body {
-    font-family: helvetica, arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 	background-color: whitesmoke;
 }
 /*     Nav    */
@@ -46,7 +46,7 @@ body {
 }
 
 .mail-css {
-	width: 10%;
+	width: 7%;
 }
 .img-footer {
 	width: 50%;
