@@ -28,7 +28,23 @@ body {
 .imgcss{
 	width: 50%;
 }
+.img-css{
+	border-radius: 10%;
+	box-shadow: 1px 1px 5px 1px #ccc;
+}
 
+.img-text-css {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 400;
+}
+
+.img-shadow{
+	box-shadow: 1px 1px 5px 1px #ccc;
+}
 /*     Index    */
 .bg-css{
 	border-color: #EBECEF;
