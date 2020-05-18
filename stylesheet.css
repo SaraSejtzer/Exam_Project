@@ -24,13 +24,17 @@ body {
 .video{
 	width: 100%;
 }
-
-.imgcss{
-	width: 50%;
+.typing-css{
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	font-size: 250%;
+	
 }
+
 .img-css{
 	border-radius: 10%;
 	box-shadow: 1px 1px 5px 1px #ccc;
+	width: 50%;
 }
 
 .img-text-css {
