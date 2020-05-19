@@ -126,7 +126,7 @@ function validatecontact(){
 	}
 
 	if(msg.length < 1){ // Dette if-statement tjekker om kæledyrsnavnet er mindre end 1
-    text = "Insert some details about yourself"; // sætter teksten til det valgte
+    text = "Insert the reason you are contacting us"; // sætter teksten til det valgte
     error_message.innerHTML = text; // indsætter teksten i HTML
 	error_message.className = 'alert-danger mb-1'; // Den indsatte tekst bliver rød
 	applicant--; // mangler udfyldt felt medfører en fratrækning fra order.
@@ -134,7 +134,7 @@ function validatecontact(){
 	}
 	
 	if (applicant==3) { // Hvis alle felter er udfyldt, altså der ikke er fratrukket fra order, eksekveres dette if-statement.
-		alert("Your application has been sent");
+		alert("Your message has been sent");
 	}
 }
 
