@@ -65,7 +65,49 @@
 	  <img class="tutorials-header" src="../img/tutorials-img/digital-art-tutorials-desktop.png" alt="digitally drawn sketches">
 	</div><!--Image banner end-->
 	
+	<div class="container-fluid">
+<div class="row">
+  <div class="column col-6 col-md-6 col-lg-3">
+    <img src="../img/references/reference-pose-body-1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor w-100">
+  </div>
+  <div class="column col-6 col-md-6 col-lg-3">
+    <img src="../img/references/reference-pose-body-2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow cursor w-100">
+  </div>
+  <div class="column col-6 col-md-6 col-lg-3">
+    <img src="../img/references/reference-pose-body-3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor w-100">
+  </div>
+  <div class="column col-6 col-md-6 col-lg-3">
+    <img src="../img/references/reference-pose-body-4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor w-100">
+  </div>
+</div>
+</div>
+
+<div id="myModal" class="modal">
+    <button class="close" onclick="closeModal()"><img class="exit-symbol" src="../img/icons/exit-symbol.png"></button>
+  <div class="modal-content">
 	
+    <div class="mySlides">
+      <img src="../img/references/reference-pose-body-1.jpg" class="w-100">
+    </div>
+
+    <div class="mySlides">
+      <img src="../img/references/reference-pose-body-2.jpg" class="w-100">
+    </div>
+
+    <div class="mySlides">
+      <img src="../img/references/reference-pose-body-3.jpg" class="w-100">
+    </div>
+    
+    <div class="mySlides">
+      <img src="../img/references/reference-pose-body-4.jpg" class="w-100">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
 	  
 	  
 	<!--Footer-->
