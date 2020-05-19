@@ -98,10 +98,10 @@
 	 </div> <!--Levels end-->
 	 
 	 <!--Text--> 
-	 <div class="container">
-		<div class="row my-4">
+	 <div class="container mt-5">
+		<div class="row mb-4 mt-5">
 			<section class="col-sm-12 col-lg-6">
-				<h2>Hwo are we?</h2>
+				<h2>Who are we?</h2>
 				<p class="text"> DigiARTal is an online platform made by artists for artists, here you will have a chance to learn how to draw or improve your skills. DigiARTal is a free to use site where we focus to teach digital art to those who are interested in learning. In a world that is in content change especially in the digital world we feel that it is important to have a place where we all can meet and learn together therefore we have created a platform where all your drawing needs is gathered in one place so you don't have to look hard to find it and you don't need to go broke to learn and grow.</p>
 			</section>
 
@@ -133,12 +133,29 @@
 			
 		  <!--Contact details-->
 		  <div class="col-md-4 col-lg-4 mt-md-1">
-			  <div>
-				<h5 class="font-weight-bold text-uppercase text-light">Contact</h5>
-				<p class="text-light">
-					<img src="img/icons/mail-icon.png" alt="mail icon" class="mail-css"> DigiARTal@outlook.com
-				</p>
-			  </div>
+
+			<h3 class="text-light"> Contact </h3>
+			  <div class="error-popup" id="error_message"> 
+					</div>
+			 <form id="contactform" onsubmit="return validatecontact();">
+
+						<div class="input_field mb-2">
+							<input type="text" placeholder="Name" id="contactname">
+						</div>
+
+						<div class="input_field mb-2">
+							<input type="text" placeholder="Email" id="contactemail">
+						</div>
+ 
+						<div class="input_field mb-2">
+							<textarea placeholder="Write your message here" id="messagecontact"></textarea>
+						</div>
+
+						<div class="btn">
+							<input class="rounded-pill px-2 py-1 border-0 knap" id = "button" type = "button" value = "Submit" onclick = "return validatecontact();">
+						</div>
+
+				  </form>
 		  </div>
 
 		  <!--Instagram-->
