@@ -138,18 +138,6 @@ function validatecontact(){
 	}
 }
 
-
-
-// Dropdown in tutorials
-function dropFunction() {
-  var x = document.getElementById("myDIV");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-
 //    Filter in tutorials
 
 filterSelection("all")
@@ -186,10 +174,10 @@ function removeClass(element, name) {
 
 
 // Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
+var btnContainer = document.getElementsByClassName("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
+for (var z = 0; z < btns.length; z++) {
+  btns[z].addEventListener("click", function(){
     var current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
