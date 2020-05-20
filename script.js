@@ -140,6 +140,15 @@ function validatecontact(){
 
 
 
+// Dropdown in tutorials
+function dropFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
 
 //    Filter in tutorials
 
@@ -187,6 +196,8 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+
+//      modal
 
 function openModal() {
   document.getElementById("myModal").style.display = "block";
