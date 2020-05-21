@@ -199,3 +199,40 @@ body {
   background-color: black;
 }
 
+/*Merchindise*/
+
+#wrap{
+	padding:5px;
+	background:#fff;   
+}
+
+#wrap .cont_order input{
+	margin-bottom:5px;
+}
+#wrap .cont_order p{
+	padding-top:5px;
+}
+
+#wrap input[type="text"]:hover,
+#wrap input[type="text"]:active {
+background-color: #FAF398;
+}
+
+.radio-bnt {
+padding-right: 10px;
+}
+
+#wrap label.radiolabel
+{
+font-weight:normal;
+ display:inline;
+}
+
+.alert-danger{
+	color: black;
+	font-weight: bold;
+	background-color: rgba(216,49,52,0.30);
+	width: 200px;
+	
+	
+}
