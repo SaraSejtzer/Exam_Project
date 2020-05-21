@@ -4,12 +4,14 @@
     margin: 0;
     padding: 0;
 	box-sizing: border-box;
-}
+}/*Reset of standart settings for margin and padding*/
+
 body {
     font-family: 'Roboto', sans-serif;
 	background-color: whitesmoke;
-}
-/*     Nav    */
+}/*Font used on all pages and background color, when put on body it automaticaly put it on everting*/
+
+/*     Navbar    */
 .logo {
 	width: 90%;
 }
@@ -17,26 +19,28 @@ body {
 .navbar-brand {
 	display: inline;
 	width: 30%;
-}
+}/*HVAD ER FUNKTION,BRUGER VI DEN ?*/
+
 .navcss{
 	background-color: rgba(241,241,241,0.50)
-}
+}/*Background color, made transparent*/
 
+/*     Index    */
 .video{
 	width: 100%;
-}
+}/*Banner video*/
+
 .typing-css{
 	font-family: 'Caveat', cursive;
 	font-weight: bold;
 	font-size: 250%;
-	
-}
+}/*Styling for the typewriting effect*/
 
 .img-css{
 	border-radius: 10%;
 	box-shadow: 1px 1px 5px 1px #ccc;
 	width: 50%;
-}
+}/*styling of the levels buttuns*/
 
 .img-text-css {
   position: absolute;
@@ -45,83 +49,61 @@ body {
   transform: translate(-50%, -50%);
   color: white;
   font-weight: 400;
-}
+}/*Text that lays on top of levels buttons*/
 
 .img-shadow{
 	box-shadow: 1px 1px 5px 1px #ccc;
-}
-/*     Index    */
-.bg-css{
-	border-color: #EBECEF;
-	background-color: #EBECEF;
-	border-radius: 5%;
-}
-/*     Tutorials page  */
-.tutorial-css{
-	width: 100%;
-}
-/*     Tutorials   */
-.tutorials-header{
-	width: 100%;
-}
+} /*Shaddow effect used on all pictures*/
+
 /*     Footer    */
 .icon-css {
 	width: 15%;
 }
 
-.mail-css {
-	width: 7%;
-}
-.img-footer {
-	width: 50%;
-	
-}
+/*.bg-css{
+	border-color: #EBECEF;
+	background-color: #EBECEF;
+	border-radius: 5%;
+} TROR IKKE VI BRUGER DENNE MERE*/
+
+/*     Tutorials page  */
+.tutorials-header{
+	width: 100%;
+}/*width of banner, moblie and desktop*/
 
 .image-text-css {
   position: absolute;
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
-}
-.error-popup {
-	width: 1px;
-	
-}
+}/*Text that lays on top of tutorial images*/
 
-
-/* The Modal (background) */
+/*     The Modal    */
 .modal {
   padding-top: 10%;
   overflow: auto;
   background-color: black;
-}
+}/*background*/
 
-/* Modal Content */
 .modal-content {
   margin: auto;
   max-width: 1200px;
-}
+}/*Modal Content */
 
-/* The Close Button */
 .close {
   position: absolute;
   top: 5px;
   right: 0%; 
-  
-}
+}/*The Close Button*/
 
 .close:hover,
 .close:focus {
   cursor: pointer;
-}
+} /*Makes close button in focus when hover*/
+
 .exit-symbol{
   width: 25%;
-}
-.mySlides {
-  display: none;
-}
-
+} /*Exit symbol, we made our own image for the symbol*/
 
 /* Next & previous buttons */
 .prev,
@@ -151,40 +133,60 @@ body {
   background-color: black;
 }
 
-/*Merchindise*/
+/*   Merchindise   */
 
 #wrap{
 	padding:5px;
 	background:#fff;   
-}
+} /*Backgrund for the full form*/
 
 #wrap .cont_order input{
 	margin-bottom:5px;
-}
+}/*styling*/
+
 #wrap .cont_order p{
 	padding-top:5px;
-}
+}/*styling*/
 
 #wrap input[type="text"]:hover,
 #wrap input[type="text"]:active {
 background-color: #FAF398;
-}
+}/*Bacground color in input area when hover*/
 
 .radio-bnt {
 padding-right: 10px;
-}
+}/*styling of radio buttons*/
 
-#wrap label.radiolabel
-{
+#wrap label.radiolabel{
 font-weight:normal;
  display:inline;
-}
+} /*The radio labes are shown in online*/
 
 .alert-danger{
 	color: black;
 	font-weight: bold;
 	background-color: rgba(216,49,52,0.30);
 	width: 200px;
-	
-	
+}/*Styling for the danger alerts shown on error messages*/
+
+.swap img:last-child{
+	display:none;
+}/*Images hidden until hover*/
+
+.swap:hover img:first-child{
+	display:none;
+}/*Images hidden when hover*/
+
+.swap:hover img:last-child{
+	display:inline-block;
+}/*Picture shown where orginal images was*/
+
+/*   Refrences   */
+.gallery img{
+	transition: 1s;
+	margin:15px;
+}
+
+.gallery img:hover{
+	transform: scale(1.1)
 }
