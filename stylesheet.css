@@ -12,7 +12,7 @@ body {
 
 /*     Navbar    */
 .logo {
-	width: 30%;
+	width: 100%;
 }
 
 .navbar-brand {
@@ -90,7 +90,7 @@ body {
 .input_field input[type="text"] {
 background-color:#EDEDED;
 }
-.input_field textarea[type="text"] {
+.input_field textarea{
 background-color: #EDEDED;
 }
 
@@ -222,6 +222,17 @@ font-weight:normal;
 .gallery img:hover{
 	transform: scale(1.1)
 }
+
+@media only screen and (max-width: 2900px) {
+  body {
+    background-color:whitesmoke;
+	}
+.logo {
+	width: 45%;
+	}	
+}
+
+
 
 @media only screen and (max-width: 1920px) {
   body {
