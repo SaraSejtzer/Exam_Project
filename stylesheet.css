@@ -6,10 +6,14 @@
 }/*Reset of standart settings for margin and padding*/
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
 	background-color: whitesmoke;
 }/*Font used on all pages and background color, when put on body it automaticaly put it on everting*/
 
+p {
+    font-size: 18px;
+	line-height: 30px;
+}
 /*     Navbar    */
 .logo {
 	width: 100%;
@@ -27,10 +31,13 @@ body {
 .navcss{
 	background-color: rgba(0,0,0,0.50)
 }/*Background color, made transparent*/
+
+.navbar{
+	height: 130px;
+}
 .navbar a {
-	color: black;
-	font-weight:550;
-	font-size: 120%;
+	font-weight:bolder;
+	font-size: 110%;
 }
 
 /*     Index    */
@@ -54,7 +61,7 @@ body {
 	transition: 0.5s;
 }
 .levels img:hover{
-	transform: scale(1.1)
+	transform: scale(1.08)
 }
 
 .img-text-css {
@@ -118,6 +125,25 @@ background-color: #EDEDED;
   transform: translate(-50%, -50%);
 }/*Text that lays on top of tutorial images*/
 
+
+.previousbtn {
+  color: black;
+  font-size: 70px; 
+  margin-top: 20px;
+
+}
+
+.nextbtn {
+  color: black;
+  font-size: 70px;
+}
+
+.header-css{
+	margin-top: 35px;
+}
+.round {
+  border-radius: 20%;
+}
 /*     The Modal    */
 .modal {
   padding-top: 10%;
@@ -223,12 +249,11 @@ font-weight:normal;
 
 /*   Refrences   */
 .gallery img{
-	transition: 1s;
-	margin:15px;
+	transition: 0.5s;
 }
 
 .gallery img:hover{
-	transform: scale(1.1)
+	transform: scale(1.08)
 }
 
 @media only screen and (max-width: 2900px) {

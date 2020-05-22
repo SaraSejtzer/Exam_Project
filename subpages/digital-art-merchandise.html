@@ -21,40 +21,33 @@
   </head>
 	
   <body onload="hideTotal();"> <!--This hides the result when the page is loaded-->
-	<!--Nav bar-->
-	<nav class="navbar navbar-expand-md navbar-light navcss fixed-top scrolling-navbar">
+	<nav class="navbar navbar-expand-md navcss fixed-top scrolling-navbar navbar-dark">
 		
-	  <a class="navbar-brand" href="../index.html">
-		<img class="logo" src="../img/icons/logo-digiartal-digital-art.png" alt="logo">
+	  <a class="navbar-brand" href="index.html">
+		<img class="logo" src="../img/icons/logo-digiartal1.png" alt="logo">
 	  </a>
 		
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
+		  <span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
 		<ul class="navbar-nav ml-auto">
-			
-		  <li class="nav-item dropdown ml-auto">
-			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			  Dropdown link
-			</a>
-			<div class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
-			  <a class="dropdown-item" href="../subpages/digital-art-tutorials.html">Tutorials</a>
-			  <a class="dropdown-item" href="../subpages/digital-art-gallery.html">Gallery</a>
-			  <a class="dropdown-item" href="../subpages/digital-art-reference.html">References</a>
-			</div>
-		  </li>
+		   <li class="nav-item ml-auto">
+			 <a class="nav-link" href="../subpages/digital-art-tutorials.html">Tutorials</a>
+		  </li>	
 		  <li class="nav-item ml-auto">
-			<a class="nav-link" href="digital-art-apply.html">Request</a>
-		  </li>
+			 <a class="nav-link" href="../subpages/digital-art-reference.html">References</a>
+		  </li>	
 		  <li class="nav-item ml-auto">
+			<a class="nav-link" href="../subpages/digital-art-apply.html">Apply</a>
+		  </li>
+		  <li class="nav-item ml-auto active">
 			<a class="nav-link" href="../subpages/digital-art-merchandise.html">Merchandise</a>
 		  </li>
 		  
 		</ul>
 	  </div>
 	</nav> <!--Nav bar end-->
-	
 	<!--Image banner-->  
 	<div class="d-block d-sm-none">
 	  <img class="tutorials-header img-shadow" src="../img/merchandise/merchandise-sticker-header-mobile.png" alt="digitally drawn woman under leaves">
@@ -63,28 +56,31 @@
 	<div class="d-none d-sm-block">
 	  <img class="tutorials-header img-shadow" src="../img/merchandise/merchandise-sticker-header-desktop.png" alt="digitally drawn woman under leaves">
 	</div><!--Image banner end--> 
-	<div class="container-fluid">
+	  
+	<h1 class="text-center font-weight-bold mt-4 text-uppercase text-dark">Merchandise</h1>
+	
+	  <div class="container-fluid">
 	 <div class="row">
 			
 			
-			<div class="col-6 col-md-4 col-lg-3 mb-2 swap">
+			<div class="col-6 col-md-6 col-lg-3 my-3 swap">
 				    
 					<img class="w-100 img-shadow" src="../img/merchandise/merchandise-sticker-1.png" alt="img">
 				    <img class="w-100 img-shadow" src="../img/merchandise/merchandise-sticker-laptop-1.png" alt="img">
 			</div>
 			
-			<div class="col-6 col-md-4 col-lg-3 mb-2 swap">
+			<div class="col-6 col-md-6 col-lg-3 my-3 swap">
 					<img class="w-100 img-shadow" src="../img/merchandise/merchandise-sticker-2.png" alt="img">
 				    <img class="w-100 img-shadow" src="../img/merchandise/merchandise-sticker-laptop-2.png" alt="img">
 			</div>
 			
-			<div class="col-6 col-md-4 col-lg-3 mb-2 swap">
+			<div class="col-6 col-md-6 col-lg-3 my-3 swap">
 				<img class="w-100 img-shadow" src="../img/merchandise/merchandise-sticker-3.png" alt="img">
 				<img class="w-100 img-shadow" src="../img/merchandise/merchandise-sticker-laptop-3.png" alt="img">
 				
 			</div>
 			
-			<div class="col-6 col-md-4 col-lg-3 mb-2 swap">
+			<div class="col-6 col-md-6 col-lg-3 my-3 swap">
 				<img class="w-100 img-shadow " src="../img/merchandise/merchandise-sticker-4.png" alt="img">
 				<img class="w-100 img-shadow " src="../img/merchandise/merchandise-sticker-laptop-4.png" alt="img">
 			</div>
@@ -92,7 +88,7 @@
 	  </div>
     
 	<div id="wrap">
-        <form action="" id="merchform" onsubmit="return false;">
+        <form id="merchform" onsubmit="return false;">
         <div class="container-fluid">
             <div class="cont_order">
                <fieldset>
@@ -203,37 +199,71 @@
 
 	  
 	<!--Footer-->
-	<footer class="page-footer font-small mdb-color lighten-3 pt-4 bg-dark">
+	<footer class="page-footer font-small lighten-3 pt-4 m-3 bg-css img-shadow">
 	  <div class="container text-center text-md-left">
 		<div class="row">
 			
 		  <!--Contact details-->
-		  <div class="col-md-4 col-lg-4 mt-md-1">
-			  <div>
-				<h5 class="font-weight-bold text-uppercase text-light">Contact</h5>
-				<p class="text-light">
-					<img src="../img/icons/mail-icon.png" alt="mail icon" class="mail-css"> DigiARTal@outlook.com
-				</p>
-			  </div>
+		  <div class="col-md-4 col-lg-4 mt-md-1 d-block d-md-none text-light">
+			 <h5 class="font-weight-bold text-light mt-3 mt-md-1">Contact</h5>
+			 <p><img class="mail-css mr-1" alt="email icon" src="../img/icons/mail-icon.png">digiartal@outlook.com</p>
+		  </div>		
+			
+		  <div class="col-md-4 col-lg-4 mt-md-1 d-none d-md-block">
+			<h5 class="text-light font-weight-bold mt-3 mt-md-1 "> Contact </h5>
+			  <div class="error-popup" id="error_message"></div>
+			 <form id="contactform" onsubmit="return validatecontact();">
+
+						<div class="input_field my-2">
+							<input type="text" placeholder="Name" id="contactname">
+						</div>
+
+						<div class="input_field mb-2">
+							<input type="text" placeholder="Email" id="contactemail">
+						</div>
+ 
+						<div class="input_field">
+							<textarea placeholder="Write your message here" id="messagecontact"></textarea>
+						</div>
+
+						<div class="btn">
+							<input class="rounded-pill px-2 py-1 border-0 knap mb-2" id = "button" type = "button" value = "Submit" onclick = "return validatecontact();">
+						</div>
+
+			</form>
 		  </div>
 
 		  <!--Instagram-->
 		  <div class="col-md-4 col-lg-4 text-center mx-auto">
-			<h5 class="font-weight-bold text-uppercase text-light mt-3 mt-md-1">Follow Us</h5>
-			<a href="https://www.instagram.com/_digiartal_/" target="_blank" class="btn-floating btn-fb">
+			<h5 class="font-weight-bold text-light mt-3 mt-md-1">Follow Us</h5>
+			<a href="https://www.instagram.com/_digiartal_/" target="_blank" class="btn-floating btn-ins">
 			  <img class="icon-css" src="../img/icons/instagram-logo.png" alt="instagram logo">
 			</a>
+			  
+			<a href="https://twitter.com/digi_ar" target="_blank" class="btn-floating btn-tw">
+			  <img class="icon-css" src="../img/icons/twitter-logo.png" alt="twitter logo">
+			</a>
+			  
+			<a href="https://www.pinterest.dk/digiartal/" target="_blank" class="btn-floating btn-pin">
+			  <img class="icon-css" src="../img/icons/pinterest-logo.png" alt="pintrest logo">
+			</a>
+			  <h5 class="font-weight-bold text-light mt-4 d-none d-md-block">About us </h5>
+			<p class="text-light d-none d-md-block">This is a school project by two students at CPH Business multimediadesign </p>  
 		  </div>
 			
 		  <!--Footer image-->	
-		  <div class="col-md-4 col-lg-4 text-sm-center text-md-right mt-2 mt-md-1"> 
-			 <img class="img-footer" src="../img/icons/footer-drawing.png" alt="footer image">
+		  <div class="col-md-4 col-lg-4 text-sm-center text-md-right"> 
+			  <h5 class="font-weight-bold text-light mt-5 mt-md-1 text-sm-center text-md-right">The founders of DigiARTal</h5>
+			 <img class="footer-img" src="../img/icons/digital-art-group.png" alt="footer image">
 		  </div>
 			
 		</div>
 	   </div>
 		
-	</footer><!--Footer end-->
+	</footer>
+	<div class="text-center">
+	<p> © Copyright - DigiARTal </p>  
+	</div><!--Footer end-->
 	
   
     <!-- Optional JavaScript -->
