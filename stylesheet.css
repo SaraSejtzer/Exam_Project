@@ -6,10 +6,14 @@
 }/*Reset of standart settings for margin and padding*/
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
 	background-color: whitesmoke;
 }/*Font used on all pages and background color, when put on body it automaticaly put it on everting*/
 
+p {
+    font-size: 18px;
+	line-height: 30px;
+}
 /*     Navbar    */
 .logo {
 	width: 100%;
@@ -27,10 +31,13 @@ body {
 .navcss{
 	background-color: rgba(0,0,0,0.50)
 }/*Background color, made transparent*/
+
+.navbar{
+	height: 130px;
+}
 .navbar a {
-	color: black;
-	font-weight:550;
-	font-size: 120%;
+	font-weight:bolder;
+	font-size: 110%;
 }
 
 /*     Index    */
@@ -122,21 +129,18 @@ background-color: #EDEDED;
 .previousbtn {
   color: black;
   font-size: 70px; 
-  height: 45px;
-  width: 50px;
-  margin-right: 20px;
-  background-color: #D0D0D0;
+  margin-top: 20px;
+
 }
 
 .nextbtn {
   color: black;
   font-size: 70px;
-  height: 45px;
-  width: 50px;
-  margin-left: 20px;
-  background-color: #D0D0D0;
 }
 
+.header-css{
+	margin-top: 35px;
+}
 .round {
   border-radius: 20%;
 }
