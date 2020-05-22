@@ -70,6 +70,15 @@ body {
 	box-shadow: 1px 1px 5px 1px #ccc;
 } /*Shaddow effect used on all pictures*/
 
+.link-css{
+	color: black;
+	font-weight: bold;
+}
+
+.lik-css:hover{
+	color: pink;
+}
+
 /*     Footer    */
 .icon-css {
 	width: 15%;
@@ -85,11 +94,9 @@ background-color:#EDEDED;
 background-color: #EDEDED;
 }
 
-/*.bg-css{
-	border-color: #EBECEF;
-	background-color: #EBECEF;
-	border-radius: 5%;
-} TROR IKKE VI BRUGER DENNE MERE*/
+.mail-css{
+	width: 7%;
+}
 
 /*     Tutorials page  */
 .tutorials-header{
