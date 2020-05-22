@@ -25,15 +25,12 @@ body {
 }
 
 .navcss{
-	background-color: rgba(241,241,241,0.70)
+	background-color: rgba(0,0,0,0.50)
 }/*Background color, made transparent*/
 .navbar a {
 	color: black;
 	font-weight:550;
 	font-size: 120%;
-}
-.navbar span {
-	color:crimson;
 }
 
 /*     Index    */
@@ -52,6 +49,13 @@ body {
 	box-shadow: 1px 1px 5px 1px #ccc;
 	width: 50%;
 }/*styling of the levels buttuns*/
+
+.levels img{
+	transition: 0.5s;
+}
+.levels img:hover{
+	transform: scale(1.1)
+}
 
 .img-text-css {
   position: absolute;
@@ -75,8 +79,9 @@ body {
 	font-weight: bold;
 }
 
-.lik-css:hover{
-	color: pink;
+.link-css:hover{
+	text-decoration: none;
+	color: #27A6B7;
 }
 
 /*     Footer    */
@@ -96,6 +101,9 @@ background-color: #EDEDED;
 
 .mail-css{
 	width: 7%;
+}
+.footer-img{
+	width: 75%;
 }
 
 /*     Tutorials page  */
@@ -266,6 +274,6 @@ font-weight:normal;
   }
 .logo {
 	width: 60%;
-}	
+}
 }
 
