@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-	box-sizing: border-box;
 }/*Reset of standart settings for margin and padding*/
 
 body {
@@ -13,7 +12,7 @@ body {
 
 /*     Navbar    */
 .logo {
-	width: 90%;
+	width: 30%;
 }
 
 .navbar-brand {
@@ -21,9 +20,21 @@ body {
 	width: 30%;
 }/*HVAD ER FUNKTION,BRUGER VI DEN ?*/
 
+.menu-css{
+	width: 30%;
+}
+
 .navcss{
-	background-color: rgba(241,241,241,0.50)
+	background-color: rgba(241,241,241,0.70)
 }/*Background color, made transparent*/
+.navbar a {
+	color: black;
+	font-weight:550;
+	font-size: 120%;
+}
+.navbar span {
+	color:crimson;
+}
 
 /*     Index    */
 .video{
@@ -51,6 +62,10 @@ body {
   font-weight: 400;
 }/*Text that lays on top of levels buttons*/
 
+#never-tried {
+	color:dimgray;
+} /* Styling the text on the first button (The black and white sketch) */
+
 .img-shadow{
 	box-shadow: 1px 1px 5px 1px #ccc;
 } /*Shaddow effect used on all pictures*/
@@ -58,6 +73,16 @@ body {
 /*     Footer    */
 .icon-css {
 	width: 15%;
+}
+
+.bg-css {
+	background-color:#636262;
+}
+.input_field input[type="text"] {
+background-color:#EDEDED;
+}
+.input_field textarea[type="text"] {
+background-color: #EDEDED;
 }
 
 /*.bg-css{
@@ -190,3 +215,39 @@ font-weight:normal;
 .gallery img:hover{
 	transform: scale(1.1)
 }
+
+@media only screen and (max-width: 1920px) {
+  body {
+    background-color:whitesmoke;
+	}
+.logo {
+	width: 45%;
+	}	
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color:whitesmoke;
+  }
+.logo {
+	width: 45%;
+}	
+}
+
+@media only screen and (max-width: 992px) {
+  body {
+    background-color:whitesmoke;
+  }
+.logo {
+	width: 50%;
+}	
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: whitesmoke;
+  }
+.logo {
+	width: 60%;
+}	
+}
+
