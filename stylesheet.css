@@ -54,7 +54,7 @@ body {
 	transition: 0.5s;
 }
 .levels img:hover{
-	transform: scale(1.1)
+	transform: scale(1.08)
 }
 
 .img-text-css {
@@ -118,6 +118,28 @@ background-color: #EDEDED;
   transform: translate(-50%, -50%);
 }/*Text that lays on top of tutorial images*/
 
+
+.previousbtn {
+  color: black;
+  font-size: 70px; 
+  height: 45px;
+  width: 50px;
+  margin-right: 20px;
+  background-color: #D0D0D0;
+}
+
+.nextbtn {
+  color: black;
+  font-size: 70px;
+  height: 45px;
+  width: 50px;
+  margin-left: 20px;
+  background-color: #D0D0D0;
+}
+
+.round {
+  border-radius: 20%;
+}
 /*     The Modal    */
 .modal {
   padding-top: 10%;
@@ -223,12 +245,11 @@ font-weight:normal;
 
 /*   Refrences   */
 .gallery img{
-	transition: 1s;
-	margin:15px;
+	transition: 0.5s;
 }
 
 .gallery img:hover{
-	transform: scale(1.1)
+	transform: scale(1.08)
 }
 
 @media only screen and (max-width: 2900px) {
