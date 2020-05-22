@@ -29,7 +29,7 @@ p {
 }
 
 .navcss{
-	background-color: rgba(0,0,0,0.50)
+	background-color: rgba(0,0,0,0.40)
 }/*Background color, made transparent*/
 
 .navbar{
@@ -127,76 +127,48 @@ background-color: #EDEDED;
 
 
 .previousbtn {
-  color: black;
+  color: dimgray;
   font-size: 70px; 
-  margin-top: 20px;
-
 }
 
 .nextbtn {
-  color: black;
+  color: dimgray;
   font-size: 70px;
 }
 
+.previousbtn:hover{
+  color:#27A6B7 ;
+  text-decoration: none;
+}
+
+.nextbtn:hover{
+  color:#27A6B7 ;
+  text-decoration: none;
+}
 .header-css{
 	margin-top: 35px;
 }
 .round {
   border-radius: 20%;
 }
-/*     The Modal    */
-.modal {
-  padding-top: 10%;
-  overflow: auto;
-  background-color: black;
-}/*background*/
+/*   Apply  */
 
-.modal-content {
-  margin: auto;
-  max-width: 1200px;
-}/*Modal Content */
-
-.close {
-  position: absolute;
-  top: 5px;
-  right: 0%; 
-}/*The Close Button*/
-
-.close:hover,
-.close:focus {
-  cursor: pointer;
-} /*Makes close button in focus when hover*/
-
-.exit-symbol{
-  width: 25%;
-} /*Exit symbol, we made our own image for the symbol*/
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  font-size: 50px;
-  transition: 0.6s ease;
-  background-color: rgba(255,255,255,0.31); 
-}
-.prev:hover,
-.next:hover{
-  background-color: rgba(255,255,255,0.70);
-}
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  
+.form-control{
+	max-width: 600px;
 }
 
-.caption-container {
-  text-align: center;
-  background-color: black;
+.form-group-inline {
+  display: inline-block;
+}
+.bg-apply{
+	background-color:#27A6B7; 
+	margin: 50px;	
+	border-radius: 50px;
+	box-shadow: 1px 1px 5px 5px #ccc; 
+}
+
+.button-css{
+	background-color: #053247;
 }
 
 /*   Merchindise   */
@@ -291,7 +263,10 @@ font-weight:normal;
   }
 .logo {
 	width: 50%;
-}	
+}
+.form-control{
+	max-width: 400px;
+}
 }
 @media only screen and (max-width: 768px) {
   body {
@@ -300,5 +275,8 @@ font-weight:normal;
 .logo {
 	width: 60%;
 }
+.form-control{
+	max-width: 200px;
+}	
 }
 

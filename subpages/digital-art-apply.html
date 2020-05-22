@@ -9,14 +9,16 @@
 
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	  
 	<!--Own CSS-->
-	<link  rel ="stylesheet" href="../stylesheet.css">
+	<link  rel ="stylesheet" href="../css/stylesheet.css">
+	  
 	<!--JavaScript-->
-	<script src = "../script.js"></script>
+	<script src = "../js/script.js"></script>
 	  
 	<title>Free digital art tutorials</title>
 	<!--Fonts-->
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 	  
   </head>
 	
@@ -25,7 +27,7 @@
 	<nav class="navbar navbar-expand-md navcss fixed-top scrolling-navbar navbar-dark">
 		
 	  <a class="navbar-brand" href="index.html">
-		<img class="logo" src="../img/icons/logo-digiartal1.png" alt="logo">
+		<img class="logo" src="../img/icons/digital-art-digiartal.png" alt="logo">
 	  </a>
 		
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,11 +54,11 @@
 	
 	<!--Image banner-->  
 	<div class="d-block d-sm-none">
-	  <img class="tutorials-header img-shadow" src="../img/references/digital-art-reference-mobile-banner.png" alt="digitally drawn sketches">
+	  <img class="tutorials-header img-shadow" src="../img/icons/digital-art-apply-mobile.png" alt="digitally drawn sketches">
 	</div> 
 	  
 	<div class="d-none d-sm-block">
-	  <img class="tutorials-header img-shadow" src="../img/references/digital-art-reference-desktop-banner.png" alt="digitally drawn sketches">
+	  <img class="tutorials-header img-shadow" src="../img/icons/digital-art-apply-desktop.png" alt="digitally drawn sketches">
 	</div><!--Image banner end-->
 	  
 	  <h1 class="text-center font-weight-bold mt-4 text-uppercase text-dark">Come join us today</h1>
@@ -72,42 +74,41 @@
 		</div> 
 	</div><!--Text end-->
 	
-	<div class="container-fluid text-center">  
-	<img class="text-center" src="../img/icons/mailbox.png" alt=""> 
-	</div>
+	 
 	  
-	<div id="bestil" class="container text-center ">
-			<div class="row wrapper justify-content-center ">
+	<div id="bestil" class="container text-center">
+			<div class="row">
 		
-				<section class="col-12 p-5 rounded">
-					<h2 class="font-weight-bolder">Wanna join our team?</h2>
-					<div class="error-popup" id="error_message"> 
-					</div>
+				<section class="col-12">
+		
+					
 
-					<form id="myform" onsubmit = "return validate();">
+					<form class="bg-apply" id="myform" onsubmit = "return validate();">
+						<h2 class="font-weight-bolder pt-3 text-light">Wanna join our team?</h2>
+					<div class="error-popup" id="error_message"> </div>
 
-						<div class="input_field mb-2">
-							<input type="text" placeholder="Name" id="name">
+						<div class="input_field mb-2 ">
+							<input class="form-control form-group-inline" type="text" placeholder="Name" id="name">
 						</div>
 
 						<div class="input_field mb-2">
-							<input type="text" placeholder="Email" id="email">
+							<input  class="form-control form-group-inline" type="text" placeholder="Email" id="email">
 						</div>
 
 						<div class="input_field mb-2">
-							<input type="text" placeholder="Instagram" id="instagram">
+							<input type="text"  class="form-control form-group-inline" placeholder="Instagram" id="instagram">
 						</div>
  
 						<div class="input_field mb-2">
-							<textarea placeholder="Who are you?" id="messagecontact1"></textarea>
+							<textarea  class="form-control form-group-inline" placeholder="Who are you?" id="messagecontact1"></textarea>
 						</div>
 
 						<div class="input_field mb-2">
-							<textarea placeholder="Why do you wanna join our team?" id="messagecontact2"></textarea>
+							<textarea  class="form-control form-group-inline" placeholder="Why do you wanna join our team?" id="messagecontact2"></textarea>
 						</div>
 
-						<div class="btn">
-							<input class="rounded-pill px-2 py-1 border-0 knap" id = "button" type = "button" value = "Apply" onclick = "return validate();">
+						<div class="btn pb-3">
+							<input class="rounded-pill px-2 py-1 border-0 button-css text-light" id = "button" type = "button" value = "Apply" onclick = "return validate();">
 						</div>
 
 				  </form>
@@ -116,6 +117,7 @@
 				
 				
 			</div>
+		
 		</div><!--Bestil slut-->
 	  
 	<!--Footer-->
@@ -131,7 +133,7 @@
 			
 		  <div class="col-md-4 col-lg-4 mt-md-1 d-none d-md-block">
 			<h5 class="text-light font-weight-bold mt-3 mt-md-1 "> Contact </h5>
-			  <div class="error-popup" id="error_message"></div>
+			  <div class="error-popup1" id="error_message1"></div>
 			 <form id="contactform" onsubmit="return validatecontact();">
 
 						<div class="input_field my-2">
@@ -147,13 +149,13 @@
 						</div>
 
 						<div class="btn">
-							<input class="rounded-pill px-2 py-1 border-0 knap mb-2" id = "button" type = "button" value = "Submit" onclick = "return validatecontact();">
+							<input class="rounded-pill px-2 py-1 border-0 knap mb-2" id = "button1" type = "button" value = "Submit" onclick = "return validatecontact();">
 						</div>
 
 			</form>
 		  </div>
 
-		  <!--Instagram-->
+		  <!--Social media-->
 		  <div class="col-md-4 col-lg-4 text-center mx-auto">
 			<h5 class="font-weight-bold text-light mt-3 mt-md-1">Follow Us</h5>
 			<a href="https://www.instagram.com/_digiartal_/" target="_blank" class="btn-floating btn-ins">
