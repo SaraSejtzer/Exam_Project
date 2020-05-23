@@ -118,7 +118,7 @@ function validatepayment(){
   if(fullname.length < 1){ // This if-statement checks if the name is longer than 1 
     text = "Insert your full name"; // This will be shown as an error message if not filled
     error_message.innerHTML = text; // Shows the text in the HTML file
-	error_message.className = 'alert-danger mb-1'; // This shows the error message in red (we have style it more in the css file)
+	error_message.className = 'alert-pay mb-1'; // This shows the error message in red (we have style it more in the css file)
 	payment--; // mangler udfyldt felt medfører en fratrækning fra order. ÆNDRES
 	return false; 
 	}
@@ -126,7 +126,7 @@ function validatepayment(){
   if(email.indexOf("@") == -1 || email.length < 6){ //The email Needs a @ to be acceptet and have at least 6 letters or numbers JEG HAR ET SPÆRGSMÅL
 	text = "Insert your email";
     error_message.innerHTML = text;
-	error_message.className = 'alert-danger mb-1';
+	error_message.className = 'alert-pay mb-1';
 	payment--;
 	return false;
 	}
@@ -134,7 +134,7 @@ function validatepayment(){
 	if(country.length < 1){ 
     text = "Insert your country"; 
     error_message.innerHTML = text;
-	error_message.className = 'alert-danger mb-1';
+	error_message.className = 'alert-pay mb-1';
 	payment--; 
 	return false; 
 	}
@@ -142,7 +142,7 @@ function validatepayment(){
 	if(address.length < 1){ 
     text = "Insert address"; 
     error_message.innerHTML = text;
-	error_message.className = 'alert-danger mb-1'; 
+	error_message.className = 'alert-pay mb-1'; 
 	payment--; 
 	return false; 
 	}
@@ -150,14 +150,14 @@ function validatepayment(){
 	if(city.length < 1){
     text = "Insert city";
     error_message.innerHTML = text;
-	error_message.className = 'alert-danger mb-1'; 
+	error_message.className = 'alert-pay mb-1'; 
 	payment--; 
 	return false; 
 	}
 	
 	if(isNaN(postalcode) || postalcode.length < 4){//You can only answar with numbers
     error_message.innerHTML = text;
-	error_message.className = 'alert-danger mb-1';
+	error_message.className = 'alert-pay mb-1';
 	payment--;
 	return false;
 	}
@@ -165,7 +165,7 @@ function validatepayment(){
 	if(cardname.length < 1){ 
     text = "Insert name on card"; 
     error_message.innerHTML = text; 
-	error_message.className = 'alert-danger mb-1'; 
+	error_message.className = 'alert-pay mb-1'; 
 	payment--; 
 	return false; 
 	}
@@ -173,7 +173,7 @@ function validatepayment(){
 	if(isNaN(cardnumber) || cardnumber.length < 16){
     text = "Insert card number";
     error_message.innerHTML = text;
-	error_message.className = 'alert-danger mb-1';
+	error_message.className = 'alert-pay mb-1';
 	payment--;
 	return false;
 	}
@@ -181,7 +181,7 @@ function validatepayment(){
 	if(isNaN(expiration) || expiration.length < 5){
     text = "Insert expiration date";
     error_message.innerHTML = text;
-	error_message.className = 'alert-danger mb-1';
+	error_message.className = 'alert-pay mb-1';
 	payment--;
 	return false;
 	}
@@ -189,7 +189,7 @@ function validatepayment(){
 	if(isNaN(securitycode) || securitycode.length != 3){//You can only answar with numbers and there has to be 3 numbers
     text = "Insert security code";
     error_message.innerHTML = text;
-	error_message.className = 'alert-danger mb-1';
+	error_message.className = 'alert-pay mb-1';
 	payment--;
 	return false;
 	}

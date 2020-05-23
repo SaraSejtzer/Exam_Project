@@ -29,12 +29,10 @@ p {
 }
 
 .navcss{
-	background-color: rgba(0,0,0,0.40)
+	background-color: rgba(0,0,0,0.50)
 }/*Background color, made transparent*/
 
-.navbar{
-	height: 130px;
-}
+
 .navbar a {
 	font-weight:bolder;
 	font-size: 110%;
@@ -113,6 +111,13 @@ background-color: #EDEDED;
 	width: 75%;
 }
 
+.alert-contact{
+	color:whitesmoke;
+	background-color: #F02E32;
+	text-align: center;
+	border-radius: 25px;
+}
+
 /*     Tutorials page  */
 .tutorials-header{
 	width: 100%;
@@ -171,12 +176,34 @@ background-color: #EDEDED;
 	background-color: #053247;
 }
 
+.alert-join{
+	color:whitesmoke;
+	background-color: #F02E32;
+	text-align: center;
+	border-radius: 25px;
+	width: 50%;
+	display: inline-block;
+}
 /*   Merchindise   */
+.bg-order{
+	background-color:#27A6B7;
+	border-radius: 50px;
+	box-shadow: 1px 1px 5px 5px #ccc; 
+	padding: 10%;
+}
+.bg-order label{
+	color:whitesmoke;
+}
 
-#wrap{
-	padding:5px;
-	background:#fff;   
-} /*Backgrund for the full form*/
+.bg-order input[type="radio"]{
+	margin-right: 5px; 
+}
+
+.total-css{
+	background-color:#053247;
+	color: whitesmoke;
+	font-size:20px; 
+}
 
 #wrap .cont_order input{
 	margin-bottom:5px;
@@ -186,26 +213,28 @@ background-color: #EDEDED;
 	padding-top:5px;
 }/*styling*/
 
-#wrap input[type="text"]:hover,
-#wrap input[type="text"]:active {
-background-color: #FAF398;
-}/*Bacground color in input area when hover*/
 
 .radio-bnt {
 padding-right: 10px;
 }/*styling of radio buttons*/
 
+.container-css{
+	max-width: 400px;
+}
+
+.alert-pay{
+	color:whitesmoke;
+	background-color: #F02E32;
+	text-align: center;
+	border-radius: 25px;
+	width: 70%;
+	display: inline-block;	
+}
 #wrap label.radiolabel{
 font-weight:normal;
  display:inline;
 } /*The radio labes are shown in online*/
 
-.alert-danger{
-	color: black;
-	font-weight: bold;
-	background-color: rgba(216,49,52,0.30);
-	width: 200px;
-}/*Styling for the danger alerts shown on error messages*/
 
 .swap img:last-child{
 	display:none;
@@ -267,6 +296,9 @@ font-weight:normal;
 .form-control{
 	max-width: 400px;
 }
+.level-header{
+		font-size: 35px;
+}
 }
 @media only screen and (max-width: 768px) {
   body {
@@ -278,5 +310,8 @@ font-weight:normal;
 .form-control{
 	max-width: 200px;
 }	
+.level-header{
+	font-size: 23px;
+}
 }
 
