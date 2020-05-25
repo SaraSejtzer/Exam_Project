@@ -14,6 +14,7 @@ p {
     font-size: 18px;
 	line-height: 30px;
 }
+
 /*     Navbar    */
 .logo {
 	width: 100%;
@@ -156,6 +157,17 @@ background-color: #EDEDED;
 .round {
   border-radius: 20%;
 }
+
+.list-css{
+	font-size: 18px;
+	line-height: 30px;	
+}
+
+.list-item-css{
+	font-size: 18px;
+	line-height: 30px;
+	margin-left: 20px;
+}
 /*   Apply  */
 
 .form-control{
@@ -181,7 +193,7 @@ background-color: #EDEDED;
 	background-color: #F02E32;
 	text-align: center;
 	border-radius: 25px;
-	width: 50%;
+	width: 60%;
 	display: inline-block;
 }
 /*   Merchindise   */
