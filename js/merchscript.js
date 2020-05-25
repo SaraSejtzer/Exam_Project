@@ -194,6 +194,6 @@ function validatepayment(){
 	return false;
 	}
 	if (payment==10) { // There are 10 things that needs to be answered to activate the alert 
-		alert("Your application has been sent");
+		alert("Thank you for your order. We're looking forward to shipping it to you!");
 	}
 }
