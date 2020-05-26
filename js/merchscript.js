@@ -178,7 +178,7 @@ function validatepayment(){
 	return false;
 	}
 	
-	if(isNaN(expiration) || expiration.length < 5){
+	if(isNaN(expiration) || expiration.length > 5){
     text = "Insert expiration date";
     error_message.innerHTML = text;
 	error_message.className = 'alert-pay mb-1';
