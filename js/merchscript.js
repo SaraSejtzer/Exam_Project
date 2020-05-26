@@ -5,7 +5,7 @@ var merch_prices = new Array();
  merch_prices["3pack"]=3; //Variabels that represents the value of a pack of stickers 
  merch_prices["5pack"]=4;
  merch_prices["10pack"]=5;
- merch_prices["20pack"]=7;
+ merch_prices["none"]=0;
 
 //Sticker 1
 function getmerchStickerPrice() {//This function finds the price of the choosen sticker pack

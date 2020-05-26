@@ -185,7 +185,10 @@ background-color: #EDEDED;
 }
 
 .button-css{
-	background-color: #053247;
+	background-color: whitesmoke;
+	color: #053d247;
+	font-weight: bold;
+	
 }
 
 .alert-join{
