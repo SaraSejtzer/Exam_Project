@@ -71,22 +71,22 @@ function getmerchSticker4Price(){
 }
 
 //Wrapping
-function wrappingPrice(){ //wrappingPrice() adds the price of wrapping if checkbox is selected
+function wrappingPrice(){ //wrappingPrice() adds to the price of wrapping if checkbox is selected
     var wrapPrice=0; //the price starts at 0
     var theForm = document.forms["merchform"];
     var includewrapping = theForm.elements["includewrapping"];
 	
-    if(includewrapping.checked==true)//If the check box is checked  it will set it to 3
+    if(includewrapping.checked==true)//If the check box is checked it will set it to 3
         wrapPrice=3;
     return wrapPrice;//The wrapPrice is returnt
 }
 
 //Calculate       
-function calculateTotal(){// Here the price is caculatet based on previus choices 
-    var merchPrice = getmerchStickerPrice() + getmerchSticker2Price() + getmerchSticker3Price() + getmerchSticker4Price() + wrappingPrice(); // The price of the first sticker+sticker2+sticker3+sticker4 and wrapping ia added together 
-    var priceresult = document.getElementById('totalPrice'); //display the result
+function calculateTotal(){// Here the price is caculated based on previous choices 
+    var merchPrice = getmerchStickerPrice() + getmerchSticker2Price() + getmerchSticker3Price() + getmerchSticker4Price() + wrappingPrice(); // The price of the first sticker+sticker2+sticker3+sticker4 and wrapping i added together 
+    var priceresult = document.getElementById('totalPrice'); //displays the result
     priceresult.style.display='block';
-    priceresult.innerHTML = "Total Price $"+merchPrice; //price shown in the HTML file 
+    priceresult.innerHTML = "Total Price $"+merchPrice; //price is shown in the HTML file 
 
 }
 
@@ -100,7 +100,7 @@ function hideTotal(){ //price is hidden upon lode of the page, the tag is found 
 
 //Paymet
 function validatepayment(){
-  var payment=10; // Der kan max fratrækkes 8, derfor er denne værdi sat til 8
+  var payment=10; //The variabel is sat to 10, therefore you can only withdraw 10
   var fullname = document.getElementById("fullname").value;
   var email = document.getElementById("email").value;
   var country = document.getElementById("country").value;
@@ -115,15 +115,15 @@ function validatepayment(){
   var error_message = document.getElementById("error_message");
 
   var text;
-  if(fullname.length < 1){ // This if-statement checks if the name is longer than 1 
-    text = "Insert your full name"; // This will be shown as an error message if not filled
-    error_message.innerHTML = text; // Shows the text in the HTML file
-	error_message.className = 'alert-pay mb-1'; // This shows the error message in red (we have style it more in the css file)
-	payment--; // mangler udfyldt felt medfører en fratrækning fra order. ÆNDRES
+  if(fullname.length < 1){ // This if-statement checks if the name is shorther than 1
+    text = "Insert your full name"; // The text that shows up if filled incorectly
+    error_message.innerHTML = text; // Inserts the text in HTML
+	error_message.className = 'alert-pay mb-1'; // The error-message gets an alert background, we have styled more on it in css
+	payment--; // If not filed correctly it will withdraw 1 from payment
 	return false; 
 	}
 	
-  if(email.indexOf("@") == -1 || email.length < 6){ //The email Needs a @ to be acceptet and have at least 6 letters or numbers JEG HAR ET SPÆRGSMÅL
+  if(email.indexOf("@") == -1 || email.length < 6){ //This if-statement checks if the name is shorther than 6 and includes a @
 	text = "Insert your email";
     error_message.innerHTML = text;
 	error_message.className = 'alert-pay mb-1';
@@ -193,7 +193,7 @@ function validatepayment(){
 	payment--;
 	return false;
 	}
-	if (payment==10) { // There are 10 things that needs to be answered to activate the alert 
+	if (payment==10) {// If all fields are filled in it runs an alert.
 		alert("Thank you for your order. We're looking forward to shipping it to you!");
 	}
 }

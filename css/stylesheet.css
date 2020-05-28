@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-}/*Reset of standart settings for margin and padding*/
+}/*Reset of the default settings for margin and padding*/
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -14,8 +14,10 @@ p {
     font-size: 18px;
 	line-height: 30px;
 }
+/*Styling all p tags*/
 
 /*     Navbar    */
+
 .logo {
 	width: 100%;
 }
@@ -23,23 +25,19 @@ p {
 .navbar-brand {
 	display: inline;
 	width: 30%;
-}/*HVAD ER FUNKTION,BRUGER VI DEN ?*/
-
-.menu-css{
-	width: 30%;
 }
 
 .navcss{
 	background-color: rgba(0,0,0,0.50)
 }/*Background color, made transparent*/
 
-
 .navbar a {
 	font-weight:bolder;
 	font-size: 110%;
-}
+}/*Navbar links made bolder*/
 
 /*     Index    */
+
 .video{
 	width: 100%;
 }/*Banner video*/
@@ -54,14 +52,15 @@ p {
 	border-radius: 10%;
 	box-shadow: 1px 1px 5px 1px #ccc;
 	width: 50%;
-}/*styling of the levels buttuns*/
+}/*Styling of the levels buttuns*/
 
 .levels img{
 	transition: 0.5s;
 }
+
 .levels img:hover{
 	transform: scale(1.08)
-}
+}/*Get's larger on hover*/
 
 .img-text-css {
   position: absolute;
@@ -83,43 +82,48 @@ p {
 .link-css{
 	color: black;
 	font-weight: bold;
-}
+}/*Styling of links*/
 
 .link-css:hover{
 	text-decoration: none;
 	color: #27A6B7;
-}
+} /*Styling of links on hover*/
 
 /*     Footer    */
+
 .icon-css {
 	width: 15%;
-}
+}/*Social media icons*/
 
 .bg-css {
 	background-color:#636262;
-}
+}/*Background color*/
+
 .input_field input[type="text"] {
 background-color:#EDEDED;
-}
+}/*Color in input field(contact form)*/
+
 .input_field textarea{
 background-color: #EDEDED;
-}
+}/*Color in textarea(contact form)*/
 
 .mail-css{
 	width: 7%;
-}
+}/*Mailing icon*/
+
 .footer-img{
 	width: 75%;
-}
+}/*Illustation*/
 
 .alert-contact{
 	color:whitesmoke;
 	background-color: #F02E32;
 	text-align: center;
 	border-radius: 25px;
-}
+}/*alert if input is wrong*/
 
 /*     Tutorials page  */
+
 .tutorials-header{
 	width: 100%;
 }/*width of banner, moblie and desktop*/
@@ -131,65 +135,64 @@ background-color: #EDEDED;
   transform: translate(-50%, -50%);
 }/*Text that lays on top of tutorial images*/
 
-
 .previousbtn {
   color: dimgray;
   font-size: 70px; 
-}
+}/*Styling of previus button between tutorials*/
 
 .nextbtn {
   color: dimgray;
   font-size: 70px;
-}
+}/*Styling of next button between tutorials*/
 
 .previousbtn:hover{
   color:#27A6B7 ;
   text-decoration: none;
-}
+}/*Styling of previus button on hover between tutorials*/
 
 .nextbtn:hover{
   color:#27A6B7 ;
   text-decoration: none;
-}
+}/*Styling of next button on hover between tutorials*/
+
 .header-css{
 	margin-top: 35px;
-}
-.round {
-  border-radius: 20%;
-}
+}/*Styling of h1*/
 
 .list-css{
 	font-size: 18px;
 	line-height: 30px;	
-}
+}/*Styling of all lists on tutorial pages*/
 
 .list-item-css{
 	font-size: 18px;
 	line-height: 30px;
 	margin-left: 20px;
-}
-/*   Apply  */
+}/*Styling of individual items on list*/
+
+/*   Join us  */
 
 .form-control{
 	max-width: 600px;
-}
+}/*Width for from, to prevent to fill the whole screen*/
 
 .form-group-inline {
   display: inline-block;
 }
+
 .bg-apply{
 	background-color:#27A6B7; 
 	margin: 50px;	
 	border-radius: 50px;
 	box-shadow: 1px 1px 5px 5px #ccc; 
-}
+}/*Background for join us form*/
 
 .button-css{
 	background-color: whitesmoke;
 	color: #053d247;
 	font-weight: bold;
 	
-}
+}/*Button for join us form*/
 
 .alert-join{
 	color:whitesmoke;
@@ -198,36 +201,26 @@ background-color: #EDEDED;
 	border-radius: 25px;
 	width: 60%;
 	display: inline-block;
-}
+}/*Styling of alert message*/
+
 /*   Merchindise   */
+
 .bg-order{
 	background-color:#27A6B7;
 	border-radius: 50px;
 	box-shadow: 1px 1px 5px 5px #ccc; 
 	padding: 7%;
-}
-.bg-order label{
-	color:whitesmoke;
-}
+}/*Background for merchindise form*/
 
 .bg-order input[type="radio"]{
 	margin-right: 5px; 
-}
+}/*Radio buttons*/
 
 .total-css{
 	background-color:#053247;
 	color: whitesmoke;
 	font-size:20px; 
-}
-
-#wrap .cont_order input{
-	margin-bottom:5px;
-}/*styling*/
-
-#wrap .cont_order p{
-	padding-top:5px;
-}/*styling*/
-
+}/*styling of total caculated*/
 
 .radio-bnt {
 padding-right: 10px;
@@ -235,7 +228,7 @@ padding-right: 10px;
 
 .container-css{
 	max-width: 400px;
-}
+}/*Width for from, to prevent to fill the whole screen*/
 
 .alert-pay{
 	color:whitesmoke;
@@ -244,12 +237,12 @@ padding-right: 10px;
 	border-radius: 25px;
 	width: 70%;
 	display: inline-block;	
-}
+} /*Styling of alert message*/
+
 #wrap label.radiolabel{
 font-weight:normal;
  display:inline;
-} /*The radio labes are shown in online*/
-
+} /*The radio labes are shown in one line*/
 
 .swap img:last-child{
 	display:none;
@@ -264,69 +257,80 @@ font-weight:normal;
 }/*Picture shown where orginal images was*/
 
 /*   Refrences   */
+
 .gallery img{
 	transition: 0.5s;
 }
 
 .gallery img:hover{
 	transform: scale(1.08)
-}
+}/*Get's larger on hover*/
+
+/*   various sizes   */
 
 @media only screen and (max-width: 2900px) {
   body {
     background-color:whitesmoke;
 	}
+	
 .logo {
 	width: 45%;
 	}	
 }
-
-
 
 @media only screen and (max-width: 1920px) {
   body {
     background-color:whitesmoke;
 	}
+	
 .logo {
 	width: 45%;
 	}	
+	
+.bg-order{
+	padding: 2%;
+}
 }
 
 @media only screen and (max-width: 1200px) {
-  body {
-    background-color:whitesmoke;
-  }
 .logo {
 	width: 45%;
-}	
+}
 }
 
 @media only screen and (max-width: 992px) {
-  body {
-    background-color:whitesmoke;
-  }
 .logo {
 	width: 50%;
 }
+	
 .form-control{
 	max-width: 400px;
 }
+	
 .level-header{
 		font-size: 35px;
 }
 }
+
 @media only screen and (max-width: 768px) {
   body {
     background-color: whitesmoke;
   }
+	
 .logo {
 	width: 60%;
 }
+	
 .form-control{
 	max-width: 200px;
 }	
+	
 .level-header{
 	font-size: 23px;
+}
+	
+.bg-order{
+	padding: 7%;
 }
 }
 
