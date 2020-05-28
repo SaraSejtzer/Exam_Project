@@ -91,6 +91,7 @@ function validate(){
 	}
 
 	if (applicant==5) { // If all fields are filled in it runs an alert.
+		error_message.innerHTML = ""; // Makes the error message dissapear when all is filled
 		alert("Your application has been sent");
 	}
 }
@@ -130,6 +131,7 @@ function validatecontact(){
 	}
 	
 	if (con==3) { 
+		error_message1.innerHTML = ""; // Makes the error message dissapear when all is filled
 		alert("Your message has been sent");
 	}
 }

@@ -156,6 +156,7 @@ function validatepayment(){
 	}
 	
 	if(isNaN(postalcode) || postalcode.length < 4){//You can only answar with numbers
+	text = "Insert postal code";	
     error_message.innerHTML = text;
 	error_message.className = 'alert-pay mb-1';
 	payment--;
@@ -194,6 +195,7 @@ function validatepayment(){
 	return false;
 	}
 	if (payment==10) {// If all fields are filled in it runs an alert.
+		error_message.innerHTML = ""; // Makes the error message dissapear when all is filled
 		alert("Thank you for your order. We're looking forward to shipping it to you!");
 	}
 }
