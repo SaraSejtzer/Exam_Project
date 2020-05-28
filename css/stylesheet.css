@@ -6,7 +6,7 @@
 }/*Reset of the default settings for margin and padding*/
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	background-color: whitesmoke;
 }/*Font used on all pages and background color, when put on body it automaticaly put it on everting*/
 
